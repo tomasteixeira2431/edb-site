@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDB - Encontro de Batuqueiros | Pagode Oficial</title>
+  <meta name="description" content="Site oficial do Encontro de Batuqueiros (EDB) - O melhor pagode do Brasil. Shows, músicas, fotos e muito mais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800;900&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <img src="assets/images/edb_logo.webp" alt="EDB Logo" class="preloader-logo" />
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+      <p>Carregando...</p>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="assets/images/edb_logo.webp" alt="EDB Logo" />
+        <span>Encontro de Batuqueiros</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#musicas" class="nav-link">Músicas</a></li>
+        <li><a href="#galeria" class="nav-link">Galeria</a></li>
+        <li><a href="#shows" class="nav-link">Shows</a></li>
+        <li><a href="#videos" class="nav-link">Vídeos</a></li>
+        <li><a href="#contato" class="nav-link nav-cta">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-music"></i> Pagode Oficial
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-title-line1">Encontro de</span>
+        <span class="hero-title-line2">Batuqueiros</span>
+      </h1>
+      <p class="hero-subtitle">O ritmo que une corações — Pagode de verdade, do jeito que você ama</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="83500">0</span>
+          <span class="stat-label">Inscritos YouTube</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="274876">0</span>
+          <span class="stat-label">Ouvintes Mensais Spotify</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="133">0</span>
+          <span class="stat-label">Vídeos no YouTube</span>
+        </div>
+      </div>
+      <div class="hero-buttons">
+        <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57?si=fcksApSPTyGTPUWky74aEQ" target="_blank" class="btn btn-spotify">
+          <i class="fab fa-spotify"></i> Ouvir no Spotify
+        </a>
+        <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="btn btn-youtube">
+          <i class="fab fa-youtube"></i> Ver no YouTube
+        </a>
+        <a href="#shows" class="btn btn-shows">
+          <i class="fas fa-ticket-alt"></i> Ver Shows
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#sobre">
+        <span>Role para baixo</span>
+        <div class="scroll-arrow"></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE SECTION -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Quem Somos</span>
+        <h2 class="section-title">Sobre o <span class="highlight">EDB</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-image-wrap">
+          <div class="sobre-image-main">
+            <img src="assets/images/edb_grupo.jpg" alt="Grupo Encontro de Batuqueiros" loading="lazy" />
+          </div>
+          <div class="sobre-image-float">
+            <img src="assets/images/edb_roda_samba.jpg" alt="Roda de Samba EDB" loading="lazy" />
+          </div>
+          <div class="sobre-badge-float">
+            <i class="fas fa-award"></i>
+            <span>Grupo Oficial</span>
+          </div>
+        </div>
+        <div class="sobre-content">
+          <h3>Canal oficial do Grupo Encontro de Batuqueiros</h3>
+          <p>O <strong>Encontro de Batuqueiros (EDB)</strong> é um dos grupos de pagode mais queridos do Brasil. Com uma sonoridade autêntica que mistura samba, pagode e muita energia, o grupo conquistou fãs em todo o país.</p>
+          <p>Com mais de <strong>83 mil inscritos no YouTube</strong> e <strong>274 mil ouvintes mensais no Spotify</strong>, o EDB prova que o pagode de qualidade nunca sai de moda. Seus shows são marcados pela interação com o público e pela alegria contagiante.</p>
+          <p>Formado por músicos talentosos — <strong>Anderson Macumbé, Dodô, Fabinho Viana, Gustavo Nana, Juninho, Mucka Monteiro e Will Brian</strong> — o grupo leva emoção e diversão a cada apresentação.</p>
+          <div class="sobre-features">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-microphone-alt"></i></div>
+              <div class="feature-text">
+                <h4>Shows ao Vivo</h4>
+                <p>Energia e emoção em cada apresentação</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-compact-disc"></i></div>
+              <div class="feature-text">
+                <h4>Discografia Rica</h4>
+                <p>Álbuns e EPs disponíveis nas plataformas</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-users"></i></div>
+              <div class="feature-text">
+                <h4>Família EDB</h4>
+                <p>Uma comunidade apaixonada pelo pagode</p>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-social">
+            <a href="https://www.instagram.com/encontrodebatuqueiros/" target="_blank" class="social-btn instagram">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="social-btn youtube">
+              <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="social-btn spotify">
+              <i class="fab fa-spotify"></i> Spotify
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBROS SECTION -->
+  <section id="membros" class="membros">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">O Grupo</span>
+        <h2 class="section-title">Os <span class="highlight">Membros</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Conheça os talentosos artistas que formam o Encontro de Batuqueiros</p>
+      </div>
+      <div class="membros-grid">
+        <div class="membro-card" data-aos="fade-up" data-delay="0">
+          <div class="membro-img-wrap">
+            <img src="assets/images/edb_live1.jpg" alt="Anderson Macumbé" loading="lazy" />
+            <div class="membro-overlay">
+              <i class="fas fa-microphone"></i>
+            </div>
+          </div>
+          <div class="membro-info">
+            <h4>Anderson Macumbé</h4>
+            <span>Vocal Principal</span>
+          </div>
+        </div>
+        <div class="membro-card" data-aos="fade-up" data-delay="100">
+          <div class="membro-img-wrap">
+            <img src="assets/images/edb_live2.jpg" alt="Will Brian" loading="lazy" />
+            <div class="membro-overlay">
+              <i class="fas fa-microphone"></i>
+            </div>
+          </div>
+          <div class="membro-info">
+            <h4>Will Brian</h4>
+            <span>Vocal</span>
+          </div>
+        </div>
+        <div class="membro-card" data-aos="fade-up" data-delay="200">
+          <div class="membro-img-wrap">
+            <img src="assets/images/edb_pagode_quintal1.jpg" alt="Membros EDB" loading="lazy" />
+            <div class="membro-overlay">
+              <i class="fas fa-drum"></i>
+            </div>
+          </div>
+          <div class="membro-info">
+            <h4>Dodô & Juninho</h4>
+            <span>Percussão</span>
+          </div>
+        </div>
+        <div class="membro-card" data-aos="fade-up" data-delay="300">
+          <div class="membro-img-wrap">
+            <img src="assets/images/edb_pagode_quintal2.jpg" alt="Membros EDB" loading="lazy" />
+            <div class="membro-overlay">
+              <i class="fas fa-guitar"></i>
+            </div>
+          </div>
+          <div class="membro-info">
+            <h4>Fabinho Viana</h4>
+            <span>Violão & Cavaquinho</span>
+          </div>
+        </div>
+        <div class="membro-card" data-aos="fade-up" data-delay="400">
+          <div class="membro-img-wrap">
+            <img src="assets/images/edb_brasilia.jpg" alt="Membros EDB" loading="lazy" />
+            <div class="membro-overlay">
+              <i class="fas fa-music"></i>
+            </div>
+          </div>
+          <div class="membro-info">
+            <h4>Gustavo Nana</h4>
+            <span>Instrumentista</span>
+          </div>
+        </div>
+        <div class="membro-card" data-aos="fade-up" data-delay="500">
+          <div class="membro-img-wrap">
+            <img src="assets/images/edb_show1.avif" alt="Mucka Monteiro" loading="lazy" />
+            <div class="membro-overlay">
+              <i class="fas fa-drum"></i>
+            </div>
+          </div>
+          <div class="membro-info">
+            <h4>Mucka Monteiro</h4>
+            <span>Percussão</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÚSICAS / SPOTIFY SECTION -->
+  <section id="musicas" class="musicas">
+    <div class="musicas-bg"></div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Ouça Agora</span>
+        <h2 class="section-title">Nossas <span class="highlight">Músicas</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Mais de 274 mil ouvintes mensais no Spotify. Ouça as músicas mais tocadas do EDB!</p>
+      </div>
+      <div class="musicas-content">
+        <div class="spotify-embed-wrap">
+          <iframe
+            src="https://open.spotify.com/embed/artist/60Szo8MMAnauqFUulJrl57?utm_source=generator&theme=0"
+            width="100%"
+            height="380"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Encontro de Batuqueiros no Spotify">
+          </iframe>
+        </div>
+        <div class="musicas-tracks">
+          <h3>Mais Tocadas</h3>
+          <div class="track-list">
+            <div class="track-item">
+              <div class="track-num">01</div>
+              <div class="track-info">
+                <span class="track-name">Quem de Nós – Acústico</span>
+                <span class="track-plays"><i class="fas fa-headphones"></i> 6,8M plays</span>
+              </div>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="track-play"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="track-item">
+              <div class="track-num">02</div>
+              <div class="track-info">
+                <span class="track-name">Verdadeira Chama / Medidas Provisórias</span>
+                <span class="track-plays"><i class="fas fa-headphones"></i> 3,2M plays</span>
+              </div>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="track-play"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="track-item">
+              <div class="track-num">03</div>
+              <div class="track-info">
+                <span class="track-name">Bem no Íntimo / Primavera e Nós Dois</span>
+                <span class="track-plays"><i class="fas fa-headphones"></i> 2,5M plays</span>
+              </div>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="track-play"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="track-item">
+              <div class="track-num">04</div>
+              <div class="track-info">
+                <span class="track-name">Lucidez / Alvará / Retrato Cantado</span>
+                <span class="track-plays"><i class="fas fa-headphones"></i> 2,7M plays</span>
+              </div>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="track-play"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="track-item">
+              <div class="track-num">05</div>
+              <div class="track-info">
+                <span class="track-name">Meu Apelo / Fada / Não Tão Menos Semelhante</span>
+                <span class="track-plays"><i class="fas fa-headphones"></i> 1,6M plays</span>
+              </div>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="track-play"><i class="fab fa-spotify"></i></a>
+            </div>
+          </div>
+          <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57?si=fcksApSPTyGTPUWky74aEQ" target="_blank" class="btn btn-spotify-full">
+            <i class="fab fa-spotify"></i> Ver Discografia Completa
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA SECTION -->
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Momentos</span>
+        <h2 class="section-title">Nossa <span class="highlight">Galeria</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Registros dos melhores momentos do Encontro de Batuqueiros</p>
+      </div>
+      <div class="galeria-filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="shows">Shows</button>
+        <button class="filter-btn" data-filter="grupo">Grupo</button>
+        <button class="filter-btn" data-filter="estudio">Estúdio</button>
+      </div>
+      <div class="galeria-grid" id="galeriaGrid">
+        <div class="galeria-item" data-category="shows">
+          <img src="assets/images/edb_carnaval.avif" alt="EDB no Carnaval de Salvador" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>EDB no Carnaval de Salvador</span>
+          </div>
+        </div>
+        <div class="galeria-item large" data-category="grupo">
+          <img src="assets/images/edb_grupo.jpg" alt="Grupo EDB" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>O Grupo EDB</span>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="shows">
+          <img src="assets/images/edb_show2.avif" alt="Show ao Vivo EDB" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>Show ao Vivo</span>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="estudio">
+          <img src="assets/images/edb_pagode_quintal1.jpg" alt="Pagode no Quintal Vol.1" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>Pagode no Quintal Vol.1</span>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="estudio">
+          <img src="assets/images/edb_pagode_quintal2.jpg" alt="Pagode no Quintal Vol.2" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>Pagode no Quintal Vol.2</span>
+          </div>
+        </div>
+        <div class="galeria-item large" data-category="shows">
+          <img src="assets/images/edb_brasilia.jpg" alt="EDB em Brasília" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>EDB em Brasília</span>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="grupo">
+          <img src="assets/images/edb_roda_samba.jpg" alt="Roda de Samba do EDB" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>Roda de Samba do EDB</span>
+          </div>
+        </div>
+        <div class="galeria-item" data-category="shows">
+          <img src="assets/images/edb_show1.avif" alt="EDB no Palco" loading="lazy" />
+          <div class="galeria-overlay">
+            <i class="fas fa-expand"></i>
+            <span>EDB no Palco</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-content">
+        <img src="" alt="" id="lightboxImg" />
+        <p id="lightboxCaption"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWS / CATÁLOGO SECTION -->
+  <section id="shows" class="shows">
+    <div class="shows-bg">
+      <div class="shows-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Agenda</span>
+        <h2 class="section-title">Próximos <span class="highlight">Shows</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Não perca a chance de ver o EDB ao vivo! Confira a agenda de shows e garanta seu ingresso.</p>
+      </div>
+      <div class="shows-grid">
+        <div class="show-card featured">
+          <div class="show-card-badge">Em Breve</div>
+          <div class="show-card-date">
+            <span class="show-day">15</span>
+            <span class="show-month">MAR</span>
+            <span class="show-year">2026</span>
+          </div>
+          <div class="show-card-info">
+            <h3>EDB ao Vivo — Pagode no Quintal</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Campinas, SP</p>
+            <p><i class="fas fa-clock"></i> A partir das 20h</p>
+            <p><i class="fas fa-ticket-alt"></i> Ingressos disponíveis</p>
+          </div>
+          <a href="tel:+5519971298950" class="show-btn">
+            <i class="fas fa-phone"></i> Reservar
+          </a>
+        </div>
+        <div class="show-card">
+          <div class="show-card-date">
+            <span class="show-day">22</span>
+            <span class="show-month">MAR</span>
+            <span class="show-year">2026</span>
+          </div>
+          <div class="show-card-info">
+            <h3>Roda de Samba do EDB</h3>
+            <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+            <p><i class="fas fa-clock"></i> A partir das 18h</p>
+            <p><i class="fas fa-ticket-alt"></i> Ingressos disponíveis</p>
+          </div>
+          <a href="tel:+5519971298950" class="show-btn">
+            <i class="fas fa-phone"></i> Reservar
+          </a>
+        </div>
+        <div class="show-card">
+          <div class="show-card-date">
+            <span class="show-day">05</span>
+            <span class="show-month">ABR</span>
+            <span class="show-year">2026</span>
+          </div>
+          <div class="show-card-info">
+            <h3>EDB Acústico — Boteco do EDB</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Guarulhos, SP</p>
+            <p><i class="fas fa-clock"></i> A partir das 19h</p>
+            <p><i class="fas fa-ticket-alt"></i> Ingressos disponíveis</p>
+          </div>
+          <a href="tel:+5519971298950" class="show-btn">
+            <i class="fas fa-phone"></i> Reservar
+          </a>
+        </div>
+        <div class="show-card">
+          <div class="show-card-date">
+            <span class="show-day">19</span>
+            <span class="show-month">ABR</span>
+            <span class="show-year">2026</span>
+          </div>
+          <div class="show-card-info">
+            <h3>Festival Me Leva — EDB</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Rio de Janeiro, RJ</p>
+            <p><i class="fas fa-clock"></i> A partir das 21h</p>
+            <p><i class="fas fa-ticket-alt"></i> Ingressos disponíveis</p>
+          </div>
+          <a href="tel:+5519971298950" class="show-btn">
+            <i class="fas fa-phone"></i> Reservar
+          </a>
+        </div>
+        <div class="show-card">
+          <div class="show-card-date">
+            <span class="show-day">03</span>
+            <span class="show-month">MAI</span>
+            <span class="show-year">2026</span>
+          </div>
+          <div class="show-card-info">
+            <h3>EDB — Show Corporativo</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Consulte disponibilidade</p>
+            <p><i class="fas fa-clock"></i> A combinar</p>
+            <p><i class="fas fa-ticket-alt"></i> Contrate para seu evento</p>
+          </div>
+          <a href="tel:+5519971298950" class="show-btn">
+            <i class="fas fa-phone"></i> Reservar
+          </a>
+        </div>
+        <div class="show-card show-contrate">
+          <div class="show-contrate-inner">
+            <i class="fas fa-star"></i>
+            <h3>Contrate o EDB</h3>
+            <p>Para eventos, festas corporativas, casamentos e muito mais!</p>
+            <a href="tel:+5519971298950" class="btn btn-gold">
+              <i class="fas fa-phone"></i> (19) 97129-8950
+            </a>
+            <a href="https://wa.me/5519971298950" target="_blank" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VÍDEOS SECTION -->
+  <section id="videos" class="videos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">YouTube</span>
+        <h2 class="section-title">Nossos <span class="highlight">Vídeos</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Assista aos melhores momentos do EDB no YouTube</p>
+      </div>
+      <div class="videos-featured">
+        <div class="video-main">
+          <div class="video-embed">
+            <iframe
+              src="https://www.youtube.com/embed/CmsBKrDsHaE?rel=0&modestbranding=1"
+              title="EDB ao vivo em Salvador"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="video-main-info">
+            <h3>EDB ao vivo em Salvador | 1 HORA DE PAGODE</h3>
+            <p><i class="fas fa-eye"></i> 131K visualizações · 3 meses atrás</p>
+          </div>
+        </div>
+      </div>
+      <div class="videos-grid">
+        <div class="video-card">
+          <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="video-thumb">
+            <img src="assets/images/edb_pagode_quintal1.jpg" alt="Pagode no Quintal Vol.1" loading="lazy" />
+            <div class="video-play-btn"><i class="fas fa-play"></i></div>
+            <span class="video-duration">1:37:21</span>
+          </a>
+          <div class="video-card-info">
+            <h4>Pagode no Quintal Vol.1 — EDB canta Fundo de Quintal</h4>
+            <span><i class="fas fa-eye"></i> 313K views</span>
+          </div>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="video-thumb">
+            <img src="assets/images/edb_pagode_quintal2.jpg" alt="Pagode no Quintal Vol.2" loading="lazy" />
+            <div class="video-play-btn"><i class="fas fa-play"></i></div>
+            <span class="video-duration">40:46</span>
+          </a>
+          <div class="video-card-info">
+            <h4>Pagode no Quintal Vol.2 — Começou o Pagode</h4>
+            <span><i class="fas fa-eye"></i> 1.9K views</span>
+          </div>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="video-thumb">
+            <img src="assets/images/edb_live1.jpg" alt="Live EDB" loading="lazy" />
+            <div class="video-play-btn"><i class="fas fa-play"></i></div>
+            <span class="video-duration">LIVE</span>
+          </a>
+          <div class="video-card-info">
+            <h4>LIVE — Pra Gente Se Encontrar de Novo</h4>
+            <span><i class="fas fa-eye"></i> 803K views</span>
+          </div>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="video-thumb">
+            <img src="assets/images/edb_roda_samba.jpg" alt="Roda de Samba do EDB" loading="lazy" />
+            <div class="video-play-btn"><i class="fas fa-play"></i></div>
+            <span class="video-duration">ÁLBUM</span>
+          </a>
+          <div class="video-card-info">
+            <h4>Roda de Samba do EDB — Ao Vivo</h4>
+            <span><i class="fas fa-eye"></i> 2.3M views</span>
+          </div>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="video-thumb">
+            <img src="assets/images/edb_carnaval.avif" alt="Carnaval Salvador" loading="lazy" />
+            <div class="video-play-btn"><i class="fas fa-play"></i></div>
+            <span class="video-duration">33:08</span>
+          </a>
+          <div class="video-card-info">
+            <h4>Carnaval de Salvador — EDB</h4>
+            <span><i class="fas fa-eye"></i> 2.7K views</span>
+          </div>
+        </div>
+        <div class="video-card">
+          <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="video-thumb">
+            <img src="assets/images/edb_show2.avif" alt="Show ao Vivo" loading="lazy" />
+            <div class="video-play-btn"><i class="fas fa-play"></i></div>
+            <span class="video-duration">46:20</span>
+          </a>
+          <div class="video-card-info">
+            <h4>Pelé Problema vai Voltar da Europa Só pra Ver o EDB</h4>
+            <span><i class="fas fa-eye"></i> 3.3K views</span>
+          </div>
+        </div>
+      </div>
+      <div class="videos-cta">
+        <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="btn btn-youtube-full">
+          <i class="fab fa-youtube"></i> Ver Todos os Vídeos no YouTube
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO SECTION -->
+  <section id="contato" class="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Fale Conosco</span>
+        <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Para shows, eventos corporativos, festas e parcerias, entre em contato conosco!</p>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <div class="contato-card">
+            <div class="contato-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contato-details">
+              <h4>Telefone / WhatsApp</h4>
+              <a href="tel:+5519971298950">(19) 97129-8950</a>
+              <a href="https://wa.me/5519971298950" target="_blank" class="whatsapp-link">
+                <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="contato-card">
+            <div class="contato-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="contato-details">
+              <h4>Instagram</h4>
+              <a href="https://www.instagram.com/encontrodebatuqueiros/" target="_blank">@encontrodebatuqueiros</a>
+            </div>
+          </div>
+          <div class="contato-card">
+            <div class="contato-icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <div class="contato-details">
+              <h4>YouTube</h4>
+              <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank">@EncontrodeBatuqueiros</a>
+              <span>83.5K inscritos</span>
+            </div>
+          </div>
+          <div class="contato-card">
+            <div class="contato-icon">
+              <i class="fab fa-spotify"></i>
+            </div>
+            <div class="contato-details">
+              <h4>Spotify</h4>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank">Encontro de Batuqueiros</a>
+              <span>274K ouvintes mensais</span>
+            </div>
+          </div>
+        </div>
+        <div class="contato-form-wrap">
+          <form class="contato-form" id="contatoForm">
+            <h3>Solicite um Show</h3>
+            <div class="form-group">
+              <label for="nome">Seu Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone / WhatsApp</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="tipo">Tipo de Evento</label>
+              <select id="tipo" name="tipo">
+                <option value="">Selecione o tipo de evento</option>
+                <option value="show">Show / Festival</option>
+                <option value="corporativo">Evento Corporativo</option>
+                <option value="casamento">Casamento</option>
+                <option value="aniversario">Aniversário</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre o seu evento..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit">
+              <i class="fas fa-paper-plane"></i> Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="assets/images/edb_logo.webp" alt="EDB Logo" />
+            <h3>Encontro de Batuqueiros</h3>
+            <p>O ritmo que une corações. Pagode de verdade, do jeito que você ama.</p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/encontrodebatuqueiros/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" aria-label="Spotify">
+                <i class="fab fa-spotify"></i>
+              </a>
+              <a href="https://wa.me/5519971298950" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#musicas">Músicas</a></li>
+              <li><a href="#galeria">Galeria</a></li>
+              <li><a href="#shows">Shows</a></li>
+              <li><a href="#videos">Vídeos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contato para Shows</h4>
+            <p><i class="fas fa-phone"></i> <a href="tel:+5519971298950">(19) 97129-8950</a></p>
+            <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5519971298950" target="_blank">WhatsApp</a></p>
+            <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/encontrodebatuqueiros/" target="_blank">@encontrodebatuqueiros</a></p>
+            <div class="footer-streaming">
+              <h4>Ouça Também</h4>
+              <a href="https://open.spotify.com/artist/60Szo8MMAnauqFUulJrl57" target="_blank" class="streaming-badge spotify">
+                <i class="fab fa-spotify"></i> Spotify
+              </a>
+              <a href="https://www.youtube.com/@encontrodebatuqueiros" target="_blank" class="streaming-badge youtube">
+                <i class="fab fa-youtube"></i> YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Encontro de Batuqueiros — EDB. Todos os direitos reservados.</p>
+        <p>Desenvolvido com <i class="fas fa-heart"></i> para a família EDB</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/5519971298950" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Fale Conosco!</span>
+  </a>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
